@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "js/app.js",
 	"scripts": {
-		"start": "tsc && node js/app.js",
+		"start": "tsc && node js/server.js",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"start:watch": "ts-node-dev src/server.ts",
 		"compile-watch": "sudo yarn tsc --p tsconfig.json -w"
