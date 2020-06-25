@@ -21,7 +21,7 @@ class TranslateController {
 		}
 
 		const translated = translateNumbers(Number(translate));
-		return res.status(200).json({ translated });
+		return res.status(200).json( {translated: translated, number: translate} );
 	}
 }
 
