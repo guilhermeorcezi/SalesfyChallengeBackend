@@ -12,7 +12,7 @@ class TranslateController {
 		}
 
 		const translated = toWords(Number(translate));
-		return res.json({ resposta: translated });
+		return res.json({ translated });
 	}
 }
 
