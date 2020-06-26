@@ -4,9 +4,9 @@
 	"description": "",
 	"main": "js/app.js",
 	"scripts": {
-		"start": "tsc && node src/server.ts",
+		"start": "tsc && node js/src/server.js",
 		"test": "mocha -r ts-node/register tests/*.spec.ts",
-		"start:watch": "ts-node-dev src/server.ts",
+		"start:watch": "ts-node-dev js/src/server.js",
 		"compile-watch": "sudo yarn tsc --p tsconfig.json -w"
 	},
 	"keywords": [],
@@ -15,18 +15,18 @@
 	"devDependencies": {
 		"@types/cors": "^2.8.6",
 		"@types/express": "^4.17.2",
-		"cors": "^2.8.5",
 		"nodemon": "^2.0.1",
 		"ts-node": "^8.10.2",
 		"ts-node-dev": "^1.0.0-pre.49",
 		"tslint": "^5.20.1",
-		"typescript": "^3.7.2"
-	},
-	"dependencies": {
+		"typescript": "^3.7.2",
+		"mocha": "^8.0.1",
 		"@types/mocha": "^7.0.2",
 		"chai": "^4.2.0",
-		"chai-http": "^4.3.0",
+		"chai-http": "^4.3.0"
+	},
+	"dependencies": {
 		"express": "^4.17.1",
-		"mocha": "^8.0.1"
+		"cors": "^2.8.5"
 	}
 }
