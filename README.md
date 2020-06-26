@@ -1,14 +1,28 @@
-Este é o projeto de desafio Salesfy, etapa Backend.
+<h1 align="center">
+Number Translator API
+</h1>
 
-Para instalação, rodar o comando:
-$ npm install
+<p align="center"> A Node API that receives int numbers and translates into words</p>
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+  </a>
+</p>
 
-Para rodar corretamente com maior produtividade para desenvolvimento, rode em terminais diferentes os seguintes comandos:
+## Features
 
-$ sudo yarn compile-watch
--- Este comando é responsável por manter seu typescript sendo compilado a cada save. Você pode acompanhar neste terminal qualquer erro de escrita no seu programa.
+- ⚛️ **React Js** — Javascript lib to create de interfaces.
+- 💹 **Node Js** — Web development environment to use Javascript on both the frontend and backend
 
-$ sudo yarn nodemon
--- A cada compilação bem sucedida, o Backend lança novamente e automaticamente uma nova versão no ar. Mantendo a execução sempre com a versão mais atualizada do código.
+## Getting started
 
-Caso esteja usando vsCode, é recomendado o uso da execução com debug, o que pode ser alcançado via arquivo launch.json. Em posse do arquivo, execute no vsCode o botão F5.
+### Backend
+To install the dependencies and run **server** (development mode) execute:
+```bash
+yarn install
+yarn start
+```
+
+## License
+
+This project is licensed by MIT License - Go to the [licence page](https://opensource.org/licenses/MIT) to see more details.
