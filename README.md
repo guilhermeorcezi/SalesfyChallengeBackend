@@ -19,8 +19,8 @@ Number Translator API
 ### Backend
 To install the dependencies and run **server** (development mode) execute:
 ```bash
-yarn install
-yarn start
+yarn install // or npm install
+yarn start // or npm start
 ```
 
 ## License
