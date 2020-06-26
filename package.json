@@ -6,7 +6,7 @@
 	"scripts": {
 		"start": "tsc && node js/src/server.js",
 		"test": "mocha -r ts-node/register tests/*.spec.ts",
-		"start:watch": "ts-node-dev js/src/server.js",
+		"start:watch": "ts-node-dev src/server.ts",
 		"compile-watch": "sudo yarn tsc --p tsconfig.json -w"
 	},
 	"keywords": [],
